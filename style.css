@@ -1,0 +1,22 @@
+body{
+    background-color: white;
+    min-height: 100vh;
+}
+
+.container{
+    margin: 0 auto;
+    width: 1100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.modal{
+    display: none;
+    margin-top: 40px;
+    width: 400px;
+    border: 1px solid #000;
+}
+.open{
+    display: block;
+}
